@@ -1,0 +1,76 @@
+html,body{
+    background:linear-gradient(to right, #00AAFF, #00FF6C);
+    font-weight:300;
+    font-size:16px;
+    font-size: 100%; 
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;      
+}
+
+.wrapper{
+    margin:0 auto;
+    max-width: 1140px;
+    max-width: 500px;
+    border: 1px   
+}
+.display{
+    text-align: right;
+    padding: 15px;
+    background: #000;
+    opacity: 0.6;
+    max-width: 88%;
+    margin: 0 auto;
+    height: 150px;
+    overflow: hidden;
+}
+.keyboard {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;   
+    transition: all 1s ;
+}
+input.key, input.clear{
+    background: #d9d9c1;
+    opacity: 0.6;
+    color: black;
+    margin: 5px;
+    transition: all 0.5s ;
+
+}
+
+
+
+.currentValue {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.counter_name {
+    display: inline-block;
+}
+
+.up, .down, .key, .clear{
+    background: #4c75a3;
+    color: white;
+    width:9rem;
+    height: 4rem;
+    opacity 0.7;
+    font-size: 2rem
+}
+
+.currentExpression{
+    font-size: 1rem;
+    color: #fff;
+    
+}
